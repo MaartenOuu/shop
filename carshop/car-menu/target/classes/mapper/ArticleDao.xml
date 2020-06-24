@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ou.dao.ArticleDao">
+
+    <resultMap type="com.ou.entity.Article" id="ArticleMap">
+        <result property="id" column="id" jdbcType="INTEGER"/>
+        <result property="carId" column="car_id" jdbcType="INTEGER"/>
+        <result property="title" column="title" jdbcType="VARCHAR"/>
+        <result property="content" column="content" jdbcType="VARCHAR"/>
+        <result property="gmtCreat" column="gmt_creat" jdbcType="TIMESTAMP"/>
+        <result property="viewCount" column="view_count" jdbcType="INTEGER"/>
+    </resultMap>
+
+    <!--查询单个-->
+    <select id="queryById" resultMap="ArticleMap">
+        select
+          id, car_id, title, content, gmt_creat, view_count
+        from usedcarshop.article
+        where id = #{id}
+    </select>
+
+    <!--查询指定行数据-->
+    <select id="queryAllByLimit" resultMap="ArticleMap">
+        select
+          id, car_id, title, content, gmt_creat, view_count
+        from usedcarshop.article
+        limit #{offset}, #{limit}
+    </select>
+
+    <!--通过实体作为筛选条件查询-->
+    <select id="queryAll" resultMap="ArticleMap">
+        select
+          id, car_id, title, content, gmt_creat, view_count
+        from usedcarshop.article
+        <where>
+            <if test="id != null">
+                and id = #{id}
+            </if>
+            <if test="carId != null">
+                and car_id = #{carId}
+            </if>
+            <if test="title != null and title != ''">
+                and title = #{title}
+            </if>
+            <if test="content != null and content != ''">
+                and content = #{content}
+            </if>
+            <if test="gmtCreat != null">
+                and gmt_creat = #{gmtCreat}
+            </if>
+            <if test="viewCount != null">
+                and view_count = #{viewCount}
+            </if>
+        </where>
+    </select>
+
+    <!--新增所有列-->
+    <insert id="insert" keyProperty="id" useGeneratedKeys="true">
+        insert into usedcarshop.article(car_id, title, content, gmt_creat, view_count)
+        values (#{carId}, #{title}, #{content}, #{gmtCreat}, #{viewCount})
+    </insert>
+
+    <!--通过主键修改数据-->
+    <update id="update">
+        update usedcarshop.article
+        <set>
+            <if test="carId != null">
+                car_id = #{carId},
+            </if>
+            <if test="title != null and title != ''">
+                title = #{title},
+            </if>
+            <if test="content != null and content != ''">
+                content = #{content},
+            </if>
+            <if test="gmtCreat != null">
+                gmt_creat = #{gmtCreat},
+            </if>
+            <if test="viewCount != null">
+                view_count = #{viewCount},
+            </if>
+        </set>
+        where id = #{id}
+    </update>
+
+    <!--通过主键删除-->
+    <delete id="deleteById">
+        delete from usedcarshop.article where id = #{id}
+    </delete>
+
+</mapper>

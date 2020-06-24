@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ou.dao.CarDao">
+
+    <resultMap type="com.ou.entity.Car" id="CarMap">
+        <result property="id" column="id" jdbcType="INTEGER"/>
+        <result property="carName" column="car_name" jdbcType="VARCHAR"/>
+        <result property="carPicture" column="car_picture" jdbcType="VARCHAR"/>
+        <result property="price" column="price" jdbcType="INTEGER"/>
+        <result property="age" column="age" jdbcType="TIMESTAMP"/>
+        <result property="brand" column="brand" jdbcType="INTEGER"/>
+        <result property="type" column="type" jdbcType="INTEGER"/>
+    </resultMap>
+
+    <!--查询单个-->
+    <select id="queryById" resultMap="CarMap">
+        select
+          id, car_name, car_picture, price, age, brand, type
+        from usedcarshop.car
+        where id = #{id}
+    </select>
+
+    <!--查询指定行数据-->
+    <select id="queryAllByLimit" resultMap="CarMap">
+        select
+          id, car_name, car_picture, price, age, brand, type
+        from usedcarshop.car
+        limit #{offset}, #{limit}
+    </select>
+
+    <!--通过实体作为筛选条件查询-->
+    <select id="queryAll" resultMap="CarMap">
+        select
+          id, car_name, car_picture, price, age, brand, type
+        from usedcarshop.car
+        <where>
+            <if test="id != null">
+                and id = #{id}
+            </if>
+            <if test="carName != null and carName != ''">
+                and car_name = #{carName}
+            </if>
+            <if test="carPicture != null and carPicture != ''">
+                and car_picture = #{carPicture}
+            </if>
+            <if test="price != null">
+                and price = #{price}
+            </if>
+            <if test="age != null">
+                and age = #{age}
+            </if>
+            <if test="brand != null">
+                and brand = #{brand}
+            </if>
+            <if test="type != null">
+                and type = #{type}
+            </if>
+        </where>
+    </select>
+
+    <!--新增所有列-->
+    <insert id="insert" keyProperty="id" useGeneratedKeys="true">
+        insert into usedcarshop.car(car_name, car_picture, price, age, brand, type)
+        values (#{carName}, #{carPicture}, #{price}, #{age}, #{brand}, #{type})
+    </insert>
+
+    <!--通过主键修改数据-->
+    <update id="update">
+        update usedcarshop.car
+        <set>
+            <if test="carName != null and carName != ''">
+                car_name = #{carName},
+            </if>
+            <if test="carPicture != null and carPicture != ''">
+                car_picture = #{carPicture},
+            </if>
+            <if test="price != null">
+                price = #{price},
+            </if>
+            <if test="age != null">
+                age = #{age},
+            </if>
+            <if test="brand != null">
+                brand = #{brand},
+            </if>
+            <if test="type != null">
+                type = #{type},
+            </if>
+        </set>
+        where id = #{id}
+    </update>
+
+    <!--通过主键删除-->
+    <delete id="deleteById">
+        delete from usedcarshop.car where id = #{id}
+    </delete>
+
+</mapper>

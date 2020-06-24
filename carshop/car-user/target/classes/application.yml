@@ -1,0 +1,22 @@
+server:
+  port: 9011
+
+spring:
+  application:
+    name: car-service
+  datasource:
+    url: jdbc:mysql://localhost:3306/car_user?useUnicode=true&charaterEncoding=UTF-8
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.jdbc.Driver
+#    type: com.alibaba.druid.pool.DruidDataSource
+#  druid:
+#    initial-size: 8
+#    min-idle: 1
+#    max-active: 20
+#    max-wait: 60000
+
+mybatis-plus:
+  mapper-locations: classpath:mapper/*.xml
+  configuration:
+    map-underscore-to-camel-case: true

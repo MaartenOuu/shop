@@ -1,7 +1,7 @@
 二手汽车平台简介（未完成）
 ===
 * 前端采用Vue、Element UI<br>
-* 后端采用Spring Boot、Spring Cloud、Shiro、Redis & Jwt
+* 后端采用Spring Boot、Spring Cloud、MyBatis-Plus、Shiro、Redis & Jwt
 * 权限认证使用Jwt，支持多终端认证系统
 
 功能

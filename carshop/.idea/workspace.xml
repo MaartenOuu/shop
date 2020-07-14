@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5a24265-5fcf-43de-a9b0-666e90c48f24" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/car-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/car-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-common/src/main/java/com/ou/utils/ResultUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/car-common/src/main/java/com/ou/utils/ResultUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-common/target/classes/com/ou/utils/ResultUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-menu/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/car-menu/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-menu/src/main/java/com/ou/CarMenuMain9010.java" beforeDir="false" afterPath="$PROJECT_DIR$/car-menu/src/main/java/com/ou/CarMenuMain9010.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-menu/src/main/java/com/ou/config/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/car-menu/src/main/java/com/ou/config/SwaggerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-common/src/main/java/com/ou/utils/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/car-common/src/main/java/com/ou/entity/Article.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-common/src/main/java/com/ou/utils/Brand.java" beforeDir="false" afterPath="$PROJECT_DIR$/car-common/src/main/java/com/ou/entity/Brand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-common/src/main/java/com/ou/utils/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/car-common/src/main/java/com/ou/entity/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-common/src/main/java/com/ou/utils/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/car-common/src/main/java/com/ou/entity/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-common/src/main/java/com/ou/utils/Type.java" beforeDir="false" afterPath="$PROJECT_DIR$/car-common/src/main/java/com/ou/entity/Type.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-consumer/src/main/java/com/ou/controller/OrderArticleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/car-consumer/src/main/java/com/ou/controller/OrderArticleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-consumer/src/main/java/com/ou/controller/OrderMenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/car-consumer/src/main/java/com/ou/controller/OrderMenuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-consumer/src/main/java/com/ou/service/MenuService.java" beforeDir="false" afterPath="$PROJECT_DIR$/car-consumer/src/main/java/com/ou/service/MenuService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/car-menu/src/main/java/com/ou/controller/ArticleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/car-menu/src/main/java/com/ou/controller/ArticleController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/car-menu/src/main/java/com/ou/controller/BrandController.java" beforeDir="false" afterPath="$PROJECT_DIR$/car-menu/src/main/java/com/ou/controller/BrandController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/car-menu/src/main/java/com/ou/controller/CarController.java" beforeDir="false" afterPath="$PROJECT_DIR$/car-menu/src/main/java/com/ou/controller/CarController.java" afterDir="false" />
@@ -18,11 +21,6 @@
       <change beforePath="$PROJECT_DIR$/car-menu/src/main/java/com/ou/dao/CarDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/car-menu/src/main/java/com/ou/dao/CarDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/car-menu/src/main/java/com/ou/dao/MenuDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/car-menu/src/main/java/com/ou/dao/MenuDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/car-menu/src/main/java/com/ou/dao/TypeDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/car-menu/src/main/java/com/ou/dao/TypeDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-menu/src/main/java/com/ou/entity/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/car-common/src/main/java/com/ou/utils/Article.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-menu/src/main/java/com/ou/entity/Brand.java" beforeDir="false" afterPath="$PROJECT_DIR$/car-common/src/main/java/com/ou/utils/Brand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-menu/src/main/java/com/ou/entity/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/car-common/src/main/java/com/ou/utils/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-menu/src/main/java/com/ou/entity/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/car-common/src/main/java/com/ou/utils/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-menu/src/main/java/com/ou/entity/Type.java" beforeDir="false" afterPath="$PROJECT_DIR$/car-common/src/main/java/com/ou/utils/Type.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/car-menu/src/main/java/com/ou/service/ArticleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/car-menu/src/main/java/com/ou/service/ArticleService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/car-menu/src/main/java/com/ou/service/BrandService.java" beforeDir="false" afterPath="$PROJECT_DIR$/car-menu/src/main/java/com/ou/service/BrandService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/car-menu/src/main/java/com/ou/service/CarService.java" beforeDir="false" afterPath="$PROJECT_DIR$/car-menu/src/main/java/com/ou/service/CarService.java" afterDir="false" />
@@ -33,67 +31,11 @@
       <change beforePath="$PROJECT_DIR$/car-menu/src/main/java/com/ou/service/impl/CarServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/car-menu/src/main/java/com/ou/service/impl/CarServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/car-menu/src/main/java/com/ou/service/impl/MenuServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/car-menu/src/main/java/com/ou/service/impl/MenuServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/car-menu/src/main/java/com/ou/service/impl/TypeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/car-menu/src/main/java/com/ou/service/impl/TypeServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-menu/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/car-menu/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/car-menu/src/main/resources/mapper/ArticleDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/car-menu/src/main/resources/mapper/ArticleDao.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/car-menu/src/main/resources/mapper/BrandDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/car-menu/src/main/resources/mapper/BrandDao.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/car-menu/src/main/resources/mapper/CarDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/car-menu/src/main/resources/mapper/CarDao.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/car-menu/src/main/resources/mapper/MenuDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/car-menu/src/main/resources/mapper/MenuDao.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/car-menu/src/main/resources/mapper/TypeDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/car-menu/src/main/resources/mapper/TypeDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-menu/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/car-menu/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-menu/target/classes/com/ou/CarMenuMain9010.class" beforeDir="false" afterPath="$PROJECT_DIR$/car-menu/target/classes/com/ou/CarMenuMain9010.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-menu/target/classes/com/ou/config/SwaggerConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/car-menu/target/classes/com/ou/config/SwaggerConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-menu/target/classes/com/ou/controller/ArticleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/car-menu/target/classes/com/ou/controller/ArticleController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-menu/target/classes/com/ou/controller/BrandController.class" beforeDir="false" afterPath="$PROJECT_DIR$/car-menu/target/classes/com/ou/controller/BrandController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-menu/target/classes/com/ou/controller/CarController.class" beforeDir="false" afterPath="$PROJECT_DIR$/car-menu/target/classes/com/ou/controller/CarController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-menu/target/classes/com/ou/controller/MenuController.class" beforeDir="false" afterPath="$PROJECT_DIR$/car-menu/target/classes/com/ou/controller/MenuController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-menu/target/classes/com/ou/controller/TypeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/car-menu/target/classes/com/ou/controller/TypeController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-menu/target/classes/com/ou/dao/ArticleDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/car-menu/target/classes/com/ou/dao/ArticleDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-menu/target/classes/com/ou/dao/BrandDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/car-menu/target/classes/com/ou/dao/BrandDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-menu/target/classes/com/ou/dao/CarDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/car-menu/target/classes/com/ou/dao/CarDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-menu/target/classes/com/ou/dao/MenuDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/car-menu/target/classes/com/ou/dao/MenuDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-menu/target/classes/com/ou/dao/TypeDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/car-menu/target/classes/com/ou/dao/TypeDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-menu/target/classes/com/ou/entity/Article.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-menu/target/classes/com/ou/entity/Brand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-menu/target/classes/com/ou/entity/Car.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-menu/target/classes/com/ou/entity/Menu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-menu/target/classes/com/ou/entity/Type.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-menu/target/classes/com/ou/service/ArticleService.class" beforeDir="false" afterPath="$PROJECT_DIR$/car-menu/target/classes/com/ou/service/ArticleService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-menu/target/classes/com/ou/service/BrandService.class" beforeDir="false" afterPath="$PROJECT_DIR$/car-menu/target/classes/com/ou/service/BrandService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-menu/target/classes/com/ou/service/CarService.class" beforeDir="false" afterPath="$PROJECT_DIR$/car-menu/target/classes/com/ou/service/CarService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-menu/target/classes/com/ou/service/MenuService.class" beforeDir="false" afterPath="$PROJECT_DIR$/car-menu/target/classes/com/ou/service/MenuService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-menu/target/classes/com/ou/service/TypeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/car-menu/target/classes/com/ou/service/TypeService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-menu/target/classes/com/ou/service/impl/ArticleServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/car-menu/target/classes/com/ou/service/impl/ArticleServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-menu/target/classes/com/ou/service/impl/BrandServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/car-menu/target/classes/com/ou/service/impl/BrandServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-menu/target/classes/com/ou/service/impl/CarServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/car-menu/target/classes/com/ou/service/impl/CarServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-menu/target/classes/com/ou/service/impl/MenuServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/car-menu/target/classes/com/ou/service/impl/MenuServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-menu/target/classes/com/ou/service/impl/TypeServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/car-menu/target/classes/com/ou/service/impl/TypeServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-menu/target/classes/mapper/ArticleDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/car-menu/target/classes/mapper/ArticleDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-menu/target/classes/mapper/BrandDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/car-menu/target/classes/mapper/BrandDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-menu/target/classes/mapper/CarDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/car-menu/target/classes/mapper/CarDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-menu/target/classes/mapper/MenuDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/car-menu/target/classes/mapper/MenuDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-menu/target/classes/mapper/TypeDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/car-menu/target/classes/mapper/TypeDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/car-user/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-user/src/main/java/com/ou/UserMain9011.java" beforeDir="false" afterPath="$PROJECT_DIR$/car-user/src/main/java/com/ou/UserMain9011.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-user/src/main/java/com/ou/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/car-user/src/main/java/com/ou/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-user/src/main/java/com/ou/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/car-user/src/main/java/com/ou/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-user/src/main/java/com/ou/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/car-user/src/main/java/com/ou/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-user/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/car-user/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-user/target/classes/com/ou/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/car-user/target/classes/com/ou/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-user/target/classes/com/ou/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/car-user/target/classes/com/ou/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-user/target/classes/com/ou/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/car-user/target/classes/com/ou/service/impl/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../usedcarshopvue/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../usedcarshopvue/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../usedcarshopvue/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../usedcarshopvue/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../usedcarshopvue/src/components/header/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../usedcarshopvue/src/components/header/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../usedcarshopvue/src/router/menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/../usedcarshopvue/src/router/menu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../usedcarshopvue/src/utils/request.js" beforeDir="false" afterPath="$PROJECT_DIR$/../usedcarshopvue/src/utils/request.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../usedcarshopvue/src/utils/service.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../usedcarshopvue/src/views/car/article.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../usedcarshopvue/src/views/car/brand.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../usedcarshopvue/src/views/car/brand.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../usedcarshopvue/src/views/car/type.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../usedcarshopvue/src/views/car/type.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../usedcarshopvue/src/views/login/login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../usedcarshopvue/src/views/login/login.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../usedcarshopvue/src/views/sys/menu.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../usedcarshopvue/src/views/sys/menu.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../usedcarshopvue/vue.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/../usedcarshopvue/vue.config.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -207,17 +149,17 @@
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.4" value="3" />
           <entry key="project.open.time.5" value="2" />
-          <entry key="project.open.time.7" value="2" />
+          <entry key="project.open.time.7" value="3" />
           <entry key="project.open.time.8" value="3" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="18" />
+          <entry key="project.opened" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="10" />
           <entry key="factories" value="3" />
-          <entry key="java" value="78" />
+          <entry key="java" value="83" />
           <entry key="pom" value="14" />
           <entry key="xml" value="20" />
           <entry key="yml" value="16" />
@@ -226,7 +168,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="10" />
-          <entry key="JAVA" value="78" />
+          <entry key="JAVA" value="83" />
           <entry key="XML" value="34" />
           <entry key="YAML" value="16" />
           <entry key="spring.factories" value="3" />
@@ -256,51 +198,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/car-consumer/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/car-menu/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/car-user/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="697">
-              <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/car-user/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/car-menu/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="jar://D:/Software/Maven/Repository/org/springframework/boot/spring-boot-autoconfigure/2.2.1.RELEASE/spring-boot-autoconfigure-2.2.1.RELEASE.jar!/META-INF/spring.factories">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1105">
@@ -327,11 +224,56 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="jar://D:/Software/Maven/Repository/com/alibaba/cloud/spring-cloud-alibaba-sentinel/2.1.0.RELEASE/spring-cloud-alibaba-sentinel-2.1.0.RELEASE-sources.jar!/com/alibaba/cloud/sentinel/SentinelProperties.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="667">
               <caret line="252" column="24" selection-start-line="252" selection-start-column="24" selection-end-line="252" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/car-common/src/main/java/com/ou/entity/Article.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/car-common/src/main/java/com/ou/entity/Brand.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/car-common/src/main/java/com/ou/entity/Car.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/car-common/src/main/java/com/ou/entity/Menu.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/car-common/src/main/java/com/ou/entity/Type.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="7" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -470,6 +412,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -477,12 +420,46 @@
               <item name="carshop" type="b2602c69:ProjectViewProjectNode" />
               <item name="carshop" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="carshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="carshop" type="462c0819:PsiDirectoryNode" />
+              <item name="car-common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="carshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="carshop" type="462c0819:PsiDirectoryNode" />
+              <item name="car-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="carshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="carshop" type="462c0819:PsiDirectoryNode" />
+              <item name="car-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="carshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="carshop" type="462c0819:PsiDirectoryNode" />
+              <item name="car-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="carshop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="carshop" type="462c0819:PsiDirectoryNode" />
+              <item name="car-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ou" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -654,6 +631,7 @@
       <workItem from="1594354433404" duration="598000" />
       <workItem from="1594608705330" duration="598000" />
       <workItem from="1594639437007" duration="232000" />
+      <workItem from="1594704623061" duration="31000" />
     </task>
     <servers />
   </component>
@@ -666,7 +644,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87928000" />
+    <option name="totallyTimeSpent" value="87959000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -678,10 +656,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4975" visible="true" weight="0.29584223" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4975" visible="true" weight="0.29904053" />
       <window_info id="Structure" order="1" sideWeight="0.5025" side_tool="true" weight="0.15831557" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -882,45 +860,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/car-common/src/main/java/com/ou/utils/Article.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/car-common/src/main/java/com/ou/utils/Brand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/car-common/src/main/java/com/ou/utils/Car.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/car-menu/src/main/java/com/ou/controller/MenuController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1190">
           <caret line="77" column="5" selection-start-line="27" selection-start-column="2" selection-end-line="77" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/car-common/src/main/java/com/ou/utils/Menu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/car-common/src/main/java/com/ou/utils/Type.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -1061,6 +1004,41 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="667">
           <caret line="252" column="24" selection-start-line="252" selection-start-column="24" selection-end-line="252" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/car-common/src/main/java/com/ou/entity/Article.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/car-common/src/main/java/com/ou/entity/Brand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/car-common/src/main/java/com/ou/entity/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/car-common/src/main/java/com/ou/entity/Menu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/car-common/src/main/java/com/ou/entity/Type.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="7" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
         </state>
       </provider>
     </entry>

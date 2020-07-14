@@ -1,6 +1,6 @@
 package com.ou.service.impl;
 
-import com.ou.utils.Brand;
+import com.ou.entity.Brand;
 import com.ou.dao.BrandDao;
 import com.ou.service.BrandService;
 import org.springframework.stereotype.Service;

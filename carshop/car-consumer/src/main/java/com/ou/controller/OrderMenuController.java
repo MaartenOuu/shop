@@ -2,8 +2,7 @@ package com.ou.controller;
 
 import com.ou.entity.ResultCommon;
 import com.ou.service.MenuService;
-import com.ou.utils.Menu;
-import com.ou.utils.ResultUtil;
+import com.ou.entity.Menu;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

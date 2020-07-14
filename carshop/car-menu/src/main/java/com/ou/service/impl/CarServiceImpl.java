@@ -1,6 +1,6 @@
 package com.ou.service.impl;
 
-import com.ou.utils.Car;
+import com.ou.entity.Car;
 import com.ou.dao.CarDao;
 import com.ou.service.CarService;
 import org.springframework.stereotype.Service;

@@ -1,6 +1,6 @@
 package com.ou.service.impl;
 
-import com.ou.utils.Menu;
+import com.ou.entity.Menu;
 import com.ou.dao.MenuDao;
 import com.ou.service.MenuService;
 import org.springframework.stereotype.Service;

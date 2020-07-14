@@ -1,9 +1,8 @@
 package com.ou.service;
 
 import com.ou.entity.ResultCommon;
-import com.ou.utils.Article;
-import com.ou.utils.Menu;
-import com.ou.utils.ResultUtil;
+import com.ou.entity.Article;
+import com.ou.entity.Menu;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.*;

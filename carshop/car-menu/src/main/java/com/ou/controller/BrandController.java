@@ -1,6 +1,6 @@
 package com.ou.controller;
 
-import com.ou.utils.Brand;
+import com.ou.entity.Brand;
 import com.ou.service.BrandService;
 import com.ou.entity.ResultCommon;
 import com.ou.utils.ResultUtil;

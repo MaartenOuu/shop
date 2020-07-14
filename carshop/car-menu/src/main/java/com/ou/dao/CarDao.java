@@ -1,6 +1,6 @@
 package com.ou.dao;
 
-import com.ou.utils.Car;
+import com.ou.entity.Car;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 import java.util.List;

@@ -1,6 +1,6 @@
 package com.ou.controller;
 
-import com.ou.utils.Menu;
+import com.ou.entity.Menu;
 import com.ou.service.MenuService;
 import com.ou.entity.ResultCommon;
 import com.ou.utils.ResultUtil;

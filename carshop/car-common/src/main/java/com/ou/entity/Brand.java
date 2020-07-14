@@ -1,4 +1,4 @@
-package com.ou.utils;
+package com.ou.entity;
 
 import java.io.Serializable;
 

@@ -1,6 +1,6 @@
 package com.ou.controller;
 
-import com.ou.utils.Article;
+import com.ou.entity.Article;
 import com.ou.service.ArticleService;
 import com.ou.entity.ResultCommon;
 import com.ou.utils.ResultUtil;

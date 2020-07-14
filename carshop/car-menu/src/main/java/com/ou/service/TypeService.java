@@ -1,6 +1,6 @@
 package com.ou.service;
 
-import com.ou.utils.Type;
+import com.ou.entity.Type;
 import java.util.List;
 
 /**

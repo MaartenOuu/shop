@@ -1,6 +1,6 @@
 package com.ou.service;
 
-import com.ou.utils.Menu;
+import com.ou.entity.Menu;
 import java.util.List;
 
 /**

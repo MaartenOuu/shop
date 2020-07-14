@@ -1,9 +1,9 @@
 package com.ou.controller;
 
-import com.ou.entity.Brand;
+import com.ou.utils.Brand;
 import com.ou.service.BrandService;
 import com.ou.entity.ResultCommon;
-import com.ou.utils.ResultUtils;
+import com.ou.utils.ResultUtil;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
@@ -31,7 +31,18 @@ public class BrandController {
      */
     @GetMapping("selectOne/{id{")
     public ResultCommon selectOne(@PathVariable("id") Integer id) {
-        return ResultUtils.success(brandService.queryById(id));
+        return ResultUtil.success(brandService.queryById(id));
+    }
+
+    /**
+     * 查询全部数据
+     *
+     *
+     * @return 全部数据
+     */
+    @GetMapping("selectAll")
+    public ResultCommon selectAll() {
+        return ResultUtil.success(brandService.queryAllByLimit(0,10));
     }
 
     /**
@@ -42,7 +53,7 @@ public class BrandController {
      */
     @PostMapping("insert")
     public ResultCommon insert(Brand brand) {
-        return  ResultUtils.success(brandService.insert(brand));
+        return  ResultUtil.success(brandService.insert(brand));
     }
 
     /**
@@ -53,7 +64,7 @@ public class BrandController {
      */
     @PutMapping("update")
     public ResultCommon update(Brand brand) {
-        return ResultUtils.success(brandService.update(brand));
+        return ResultUtil.success(brandService.update(brand));
     }
 
     /**
@@ -62,13 +73,13 @@ public class BrandController {
      * @param id 主键
      * @return 是否成功
      */
-    @DeleteMapping("delete")
-    public ResultCommon deleteById(Integer id) {
+    @DeleteMapping("delete/{id}")
+    public ResultCommon deleteById(@PathVariable("id") Integer id) {
         boolean b = brandService.deleteById(id);
         if(b == true){
-            return ResultUtils.success();
+            return ResultUtil.success();
         }else {
-            return ResultUtils.error();
+            return ResultUtil.error();
         }
     }
 }

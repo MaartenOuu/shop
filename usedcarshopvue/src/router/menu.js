@@ -26,7 +26,9 @@ export default [
             {
                 path: "/menu/article",
                 name: "article",
-                component: () => import('@/views/car/article.vue'),
+                components: {
+                    default:() => import('@/views/car/article/article.vue')
+                },
                 meta: {
                     keepAlive: true,
                 },

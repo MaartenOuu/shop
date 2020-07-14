@@ -1,6 +1,6 @@
 package com.ou.dao;
 
-import com.ou.entity.Menu;
+import com.ou.utils.Menu;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 import java.util.List;

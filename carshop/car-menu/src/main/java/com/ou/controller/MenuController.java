@@ -1,9 +1,9 @@
 package com.ou.controller;
 
-import com.ou.entity.Menu;
+import com.ou.utils.Menu;
 import com.ou.service.MenuService;
 import com.ou.entity.ResultCommon;
-import com.ou.utils.ResultUtils;
+import com.ou.utils.ResultUtil;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.web.bind.annotation.*;
 
@@ -34,7 +34,7 @@ public class MenuController {
     @GetMapping("selectOne/{id}")
     public ResultCommon selectOne(@PathVariable("id") Integer id) {
         Menu menu = menuService.queryById(id);
-        return ResultUtils.success(menu);
+        return ResultUtil.success(menu);
     }
 
     /**
@@ -46,7 +46,7 @@ public class MenuController {
     @PostMapping("insert")
     public ResultCommon insert(Menu menu) {
         menuService.insert(menu);
-        return ResultUtils.success(menu);
+        return ResultUtil.success(menu);
     }
 
     /**
@@ -58,7 +58,7 @@ public class MenuController {
     @PutMapping("update")
     public ResultCommon update(Menu menu) {
         Menu update = menuService.update(menu);
-        return ResultUtils.success(menu);
+        return ResultUtil.success(menu);
     }
 
     /**
@@ -71,9 +71,9 @@ public class MenuController {
     public ResultCommon deleteById(@PathVariable("id") Integer id) {
         boolean b = menuService.deleteById(id);
         if(b == true){
-            return ResultUtils.success();
+            return ResultUtil.success();
         }else {
-            return ResultUtils.error();
+            return ResultUtil.error();
         }
     }
 }

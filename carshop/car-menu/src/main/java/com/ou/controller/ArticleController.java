@@ -1,9 +1,9 @@
 package com.ou.controller;
 
-import com.ou.entity.Article;
+import com.ou.utils.Article;
 import com.ou.service.ArticleService;
 import com.ou.entity.ResultCommon;
-import com.ou.utils.ResultUtils;
+import com.ou.utils.ResultUtil;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
@@ -33,14 +33,35 @@ public class ArticleController {
     @GetMapping("selectOne/{id}")
     public ResultCommon selectOne(@PathVariable("id") Integer id) {
         Article article = articleService.queryById(id);
-        return ResultUtils.success(article);
+        return ResultUtil.success(article);
     }
 
 
     @GetMapping("selectAll")
     public ResultCommon selectAll() {
         List<Article> articles = articleService.queryAllByLimit(0, 10);
-        return ResultUtils.success(articles);
+        return ResultUtil.success(articles);
     }
 
+    @DeleteMapping("{id}")
+    public ResultCommon deleteOne(@PathVariable("id")Integer id) {
+        boolean b = articleService.deleteById(id);
+        if(b == true){
+            return ResultUtil.success();
+        }else{
+            return ResultUtil.error();
+        }
+    }
+
+    @PutMapping("update")
+    public ResultCommon update(@RequestBody Article article) {
+        Article update = articleService.update(article);
+        return ResultUtil.success(update);
+    }
+
+    @PostMapping("insert")
+    public ResultCommon insert(@RequestBody Article article){
+        Article insert = articleService.insert(article);
+        return ResultUtil.success(insert);
+    }
 }

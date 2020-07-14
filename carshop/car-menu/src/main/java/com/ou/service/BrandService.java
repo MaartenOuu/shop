@@ -1,6 +1,6 @@
 package com.ou.service;
 
-import com.ou.entity.Brand;
+import com.ou.utils.Brand;
 import java.util.List;
 
 /**

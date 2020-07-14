@@ -1,6 +1,6 @@
 package com.ou.controller;
 
-import com.ou.entity.Car;
+import com.ou.utils.Car;
 import com.ou.service.CarService;
 import org.springframework.web.bind.annotation.*;
 

@@ -1,6 +1,6 @@
 package com.ou.dao;
 
-import com.ou.entity.Brand;
+import com.ou.utils.Brand;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 import java.util.List;

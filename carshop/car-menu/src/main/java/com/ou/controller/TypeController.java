@@ -1,9 +1,9 @@
 package com.ou.controller;
 
-import com.ou.entity.Type;
+import com.ou.utils.Type;
 import com.ou.service.TypeService;
 import com.ou.entity.ResultCommon;
-import com.ou.utils.ResultUtils;
+import com.ou.utils.ResultUtil;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
@@ -31,7 +31,7 @@ public class TypeController {
      */
     @GetMapping("selectOne/{id}")
     public ResultCommon selectOne(@PathVariable("id") Integer id) {
-        return ResultUtils.success(typeService.queryById(id));
+        return ResultUtil.success(typeService.queryById(id));
     }
 
 
@@ -43,7 +43,7 @@ public class TypeController {
      */
     @PostMapping("insert")
     public ResultCommon insert(Type type) {
-        return  ResultUtils.success(typeService.insert(type));
+        return  ResultUtil.success(typeService.insert(type));
     }
 
     /**
@@ -54,7 +54,7 @@ public class TypeController {
      */
     @PutMapping("update")
     public ResultCommon update(Type type) {
-        return ResultUtils.success(typeService.update(type));
+        return ResultUtil.success(typeService.update(type));
     }
 
     /**
@@ -67,9 +67,9 @@ public class TypeController {
     public ResultCommon deleteById(Integer id) {
         boolean b = typeService.deleteById(id);
         if(b == true){
-            return ResultUtils.success();
+            return ResultUtil.success();
         }else {
-            return ResultUtils.error();
+            return ResultUtil.error();
         }
     }
 }

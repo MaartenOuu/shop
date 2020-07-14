@@ -1,6 +1,6 @@
 package com.ou.service.impl;
 
-import com.ou.entity.Article;
+import com.ou.utils.Article;
 import com.ou.dao.ArticleDao;
 import com.ou.service.ArticleService;
 import org.springframework.stereotype.Service;

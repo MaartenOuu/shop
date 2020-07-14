@@ -5,13 +5,10 @@ import com.ou.dao.UserMapper;
 import com.ou.entity.ResultCommon;
 import com.ou.entity.User;
 import com.ou.service.UserService;
-import com.ou.utils.ResultUtils;
+import com.ou.utils.JWTUtil;
+import com.ou.utils.ResultUtil;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-
-import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.HashMap;
 import java.util.List;
@@ -29,14 +26,20 @@ import java.util.List;
 public class UserController {
 
     @Autowired
-    private com.ou.dao.UserMapper UserMapper;
+    private UserService userService;
 
-    @GetMapping("/select")
-    public ResultCommon selectAll(){
-        HashMap<String, Object> map = new HashMap<>();
-        map.put("id",1);
-        List<User> users = UserMapper.selectByMap(map);
-        return ResultUtils.success(users);
+    @PostMapping("/token")
+    public ResultCommon getToken(@RequestBody User user){
+        User user1 = userService.selectOne(user);
+        HashMap<String, String> map = new HashMap<>();
+        if(user1 == null || "".equals(user1)) {
+            map.put("errmessage","用戶或密码错误");
+            return ResultUtil.error(map);
+        }else{
+            String token = JWTUtil.createToken(user1.getId());
+            map.put("token",token);
+            return ResultUtil.success(map);
+        }
     }
 
 }

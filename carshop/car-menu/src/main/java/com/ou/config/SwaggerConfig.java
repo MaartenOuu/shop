@@ -15,7 +15,6 @@ import java.util.ArrayList;
 
 
 @Configuration
-@EnableSwagger2
 public class SwaggerConfig {
 
     private ApiInfo apiInfo(){

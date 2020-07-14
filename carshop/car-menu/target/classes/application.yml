@@ -4,8 +4,12 @@ server:
 spring:
   application:
     name: menu-service
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
   datasource:
-    url: jdbc:mysql://localhost:3306/usedcarshop
+    url: jdbc:mysql://localhost:3306/usedcarshop?useUnicode=true&characterEncoding=UTF-8
     username: root
     password: 123456
     driver-class-name: com.mysql.jdbc.Driver

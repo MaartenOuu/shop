@@ -1,6 +1,6 @@
 package com.ou.service.impl;
 
-import com.ou.entity.Type;
+import com.ou.utils.Type;
 import com.ou.dao.TypeDao;
 import com.ou.service.TypeService;
 import org.springframework.stereotype.Service;

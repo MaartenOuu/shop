@@ -1,6 +1,6 @@
 package com.ou.service;
 
-import com.ou.entity.Car;
+import com.ou.utils.Car;
 import java.util.List;
 
 /**

@@ -2,9 +2,16 @@ server:
   port: 9010
 
 spring:
+  redis:
+    host: localhost
+    port: 6379
   application:
     name: menu-service
   cloud:
+    sentinel:
+      transport:
+        dashboard: localhost:8080
+        port: 8719
     nacos:
       discovery:
         server-addr: localhost:8848

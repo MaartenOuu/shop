@@ -2,6 +2,9 @@ server:
   port: 9010
 
 spring:
+  redis:
+    host: localhost
+    port: 6379
   application:
     name: menu-service
   cloud:

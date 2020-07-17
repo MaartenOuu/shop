@@ -1,6 +1,7 @@
 package com.ou.controller;
 
 
+import com.alibaba.csp.sentinel.annotation.SentinelResource;
 import com.ou.dao.UserMapper;
 import com.ou.entity.ResultCommon;
 import com.ou.entity.User;
@@ -29,6 +30,7 @@ public class UserController {
     private UserService userService;
 
     @PostMapping("/token")
+    @SentinelResource(value = "token")
     public ResultCommon getToken(@RequestBody User user){
         User user1 = userService.selectOne(user);
         HashMap<String, String> map = new HashMap<>();

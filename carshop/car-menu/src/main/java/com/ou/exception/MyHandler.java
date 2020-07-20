@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 @ControllerAdvice(basePackages = "com.ou.controller")
 public class MyHandler {
 
-    @ExceptionHandler(value = Exception.class)
+    @ExceptionHandler(value = NullPointerException.class)
     public ResultCommon handler(){
         return ResultUtil.error("输入不能为空");
     }

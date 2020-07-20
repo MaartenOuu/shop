@@ -16,19 +16,27 @@ export default [
                 },
             },
             {
-                path: "/menu/type",
-                name: "type",
+                path: "/menu/article",
+                name: "article",
+                components: {
+                    default:() => import('@/views/car/article/article.vue')
+                },
+                meta: {
+                    keepAlive: true,
+                },
+            },
+            {
+                path: "/menu/suv",
+                name: "brand",
                 component: () => import('@/views/car/type.vue'),
                 meta: {
                     keepAlive: true,
                 },
             },
             {
-                path: "/menu/article",
-                name: "article",
-                components: {
-                    default:() => import('@/views/car/article/article.vue')
-                },
+                path: "/menu/sedan",
+                name: "sedan",
+                component: () => import('@/views/car/type.vue'),
                 meta: {
                     keepAlive: true,
                 },

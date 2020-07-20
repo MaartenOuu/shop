@@ -5,6 +5,8 @@ import com.ou.service.ArticleService;
 import com.ou.entity.ResultCommon;
 import com.ou.utils.ResultUtil;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.web.bind.annotation.*;
 
@@ -22,9 +24,12 @@ import java.util.Set;
  */
 @RestController
 @RequestMapping("article")
+@RefreshScope
 public class ArticleController {
 
-    private final static String ARTICILE = "article-";
+    //nacos config上配置属性
+    @Value("${redisPrefix.article}")
+    private String redisPrefix;
     /**
      * 服务对象
      */
@@ -41,21 +46,23 @@ public class ArticleController {
      */
     @GetMapping("selectOne/{id}")
     public ResultCommon selectOne(@PathVariable("id") Integer id) {
-        StringBuilder stringBuilder = new StringBuilder(ARTICILE);
+        StringBuilder stringBuilder = new StringBuilder(redisPrefix);
         String ArtId = stringBuilder.append(id).toString();
         Article art = (Article)redisTemplate.opsForValue().get(ArtId);
         if (art != null){
             return ResultUtil.success(art);
+        }else {
+            Article article = articleService.queryById(id);
+            redisTemplate.opsForValue().set(ArtId,article);
+            return ResultUtil.success(article);
         }
-        Article article = articleService.queryById(id);
-        redisTemplate.opsForValue().set(ArtId,article);
-        return ResultUtil.success(article);
+
     }
 
 
     @GetMapping("selectAll")
     public ResultCommon selectAll() {
-        Set<String> keys = redisTemplate.keys(ARTICILE+"*");
+        Set<String> keys = redisTemplate.keys(redisPrefix+"*");
         ArrayList<Article> arrayList = new ArrayList<>();
         for(String key:keys){
                 Article art = (Article) redisTemplate.opsForValue().get(key);
@@ -74,7 +81,7 @@ public class ArticleController {
     public ResultCommon deleteOne(@PathVariable("id")Integer id) {
         boolean b = articleService.deleteById(id);
         if(b == true){
-            StringBuilder stringBuilder = new StringBuilder(ARTICILE);
+            StringBuilder stringBuilder = new StringBuilder(redisPrefix);
             String ArtId = stringBuilder.append(id).toString();
             redisTemplate.delete(ArtId);
             return ResultUtil.success();
@@ -86,13 +93,23 @@ public class ArticleController {
     @PutMapping("update")
     public ResultCommon update(@RequestBody Article article) {
         Article update = articleService.update(article);
-        redisTemplate.opsForValue().
+        StringBuilder stringBuilder = new StringBuilder(redisPrefix);
+        String ArtId = stringBuilder.append(update.getId()).toString();
+        redisTemplate.delete(ArtId);
         return ResultUtil.success(update);
     }
 
     @PostMapping("insert")
     public ResultCommon insert(@RequestBody Article article){
         Article insert = articleService.insert(article);
+        StringBuilder stringBuilder = new StringBuilder(redisPrefix);
+        String ArtId = stringBuilder.append(insert.getId()).toString();
+        redisTemplate.opsForValue().set(ArtId,insert);
         return ResultUtil.success(insert);
+    }
+
+    @GetMapping("test")
+    public String a(){
+        return redisPrefix;
     }
 }

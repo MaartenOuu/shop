@@ -31,6 +31,9 @@ export default {
         address: ""
       }
     };
+  },
+  mounted: function(){
+    console.log(this.$route.path)
   }
 };
 </script>

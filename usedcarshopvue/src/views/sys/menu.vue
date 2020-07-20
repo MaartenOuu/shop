@@ -14,10 +14,10 @@
             <span>汽车管理</span>
           </template>
           <el-menu-item-group>
-            <router-link to="/menu/type">
+            <router-link to="/menu/sedan">
               <el-menu-item index="1-1">轿车管理</el-menu-item>
             </router-link>
-            <router-link to="/menu/type">
+            <router-link to="/menu/suv">
               <el-menu-item index="1-2">suv管理</el-menu-item>
             </router-link>
             <router-link to="/menu/brand">

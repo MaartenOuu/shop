@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: menu-service
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+      config:
+        server-addr: localhost:8848
+        ext-config[0]:
+          data-id: article.yaml
+          refresh: true

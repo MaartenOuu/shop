@@ -29,6 +29,20 @@
         <el-form-item label="内容" label-width="150px">
           <el-input v-model="form.content" autocomplete="off"></el-input>
         </el-form-item>
+        <el-upload
+          class="upload-demo"
+          ref="upload"
+          accept="image/jpeg,image/png"
+          action="/pic/article/upload"
+          auto-upload=false
+          :data=this.form
+          :on-success="insert"
+          :file-list="fileList"
+          list-type="picture"
+        >
+          <el-button size="small" type="primary">选取文件</el-button>
+          <div slot="tip" class="el-upload__tip">只能上传jpg/png文件</div>
+        </el-upload>
       </el-form>
       <div slot="footer" class="dialog-footer">
         <el-button @click="cancel">取 消</el-button>
@@ -47,13 +61,14 @@ export default {
   data() {
     return {
       dialogFormVisible: false,
-      tableData: [''],
+      tableData: [""],
+      fileList:[],
       form: {
-        id: '',
-        carId: '',
-        title: '',
-        content: '',
-        viewCount: ''
+        id: "",
+        carId: "",
+        title: "",
+        content: "",
+        viewCount: ""
       }
     };
   },
@@ -92,7 +107,7 @@ export default {
       if (this.form.id !== null && this.form.id !== "") {
         this.upsate();
       } else {
-        this.insert();
+        this.$refs.upload.submit();
       }
     },
     insert() {

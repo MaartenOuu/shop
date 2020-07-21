@@ -1,6 +1,7 @@
 package com.ou.controller;
 
 import com.ou.entity.Article;
+import com.ou.entity.Menu;
 import com.ou.service.ArticleService;
 import com.ou.entity.ResultCommon;
 import com.ou.utils.ResultUtil;
@@ -9,8 +10,12 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.multipart.MultipartFile;
 
 import javax.annotation.Resource;
+import javax.servlet.annotation.MultipartConfig;
+import java.io.File;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -30,6 +35,8 @@ public class ArticleController {
     //nacos config上配置属性
     @Value("${redisPrefix.article}")
     private String redisPrefix;
+    private String path = "D:\\尝试代码\\shop\\usedcarshopvue\\src\\assets\\images\\";
+
     /**
      * 服务对象
      */
@@ -108,8 +115,19 @@ public class ArticleController {
         return ResultUtil.success(insert);
     }
 
-    @GetMapping("test")
-    public String a(){
-        return redisPrefix;
+    @PostMapping("upload")
+    public ResultCommon upload(@RequestParam("file")MultipartFile file) {
+
+        if(file.isEmpty()){
+            return ResultUtil.error("请重新上传文件");
+        }
+        String originalFilename = file.getOriginalFilename();
+        File newFile = new File(path + originalFilename);
+        try {
+            file.transferTo(newFile);
+            return ResultUtil.success("上传成功");
+        } catch (IOException e) {
+            return ResultUtil.error("上传失败");
+        }
     }
 }

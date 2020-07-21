@@ -15,6 +15,13 @@ module.exports = {
           pathRewrite: {
             '^/api': ''    //代理的路径
           }
+        },
+        '/pic': {
+          target: 'http://localhost:9001',   //代理接口
+          changeOrigin: true,
+          pathRewrite: {
+            '^/pic': ''    //代理的路径
+          }
         }
       }
     },

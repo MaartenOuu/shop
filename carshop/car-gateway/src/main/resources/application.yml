@@ -12,5 +12,9 @@ spring:
           uri: http://localhost:90
           predicates:
             - Path=/consumer/**
+        - id: article
+          uri: http://localhost:9010
+          predicates:
+            - Path=/article/**
 
 

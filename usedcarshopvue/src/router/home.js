@@ -4,7 +4,7 @@ export default [
         name: "Home",
         component: () => import('@/views/home/home.vue'),
         meta: {
-            keepAlive: false,
+            keepAlive: true,
         }
     },
     {

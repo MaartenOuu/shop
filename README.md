@@ -12,5 +12,5 @@
 * 汽车类型管理：根据类型管理汽车信息
 * 发布信息管理：添加、修改、删除发布信息
 
-![Image text](https://github.com/MaartenOuu/shop/blob/master/images/2.png)
-![Image text](https://github.com/MaartenOuu/shop/blob/master/images/1.png)
+![Image](https://github.com/MaartenOuu/shop/blob/master/images/2.png)
+![Image](https://github.com/MaartenOuu/shop/blob/master/images/1.png)

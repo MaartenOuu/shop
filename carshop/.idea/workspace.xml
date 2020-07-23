@@ -1,30 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a5a24265-5fcf-43de-a9b0-666e90c48f24" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/car-consumer/src/main/java/com/ou/service/ArticleService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-menu/src/main/java/com/ou/controller/ArticleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/car-menu/src/main/java/com/ou/controller/ArticleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-menu/src/main/java/com/ou/dao/ArticleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/car-menu/src/main/java/com/ou/dao/ArticleDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-menu/src/main/java/com/ou/service/ArticleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/car-menu/src/main/java/com/ou/service/ArticleService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-menu/src/main/java/com/ou/service/impl/ArticleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/car-menu/src/main/java/com/ou/service/impl/ArticleServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-menu/src/main/resources/mapper/ArticleDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/car-menu/src/main/resources/mapper/ArticleDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-menu/target/classes/com/ou/controller/ArticleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/car-menu/target/classes/com/ou/controller/ArticleController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-menu/target/classes/com/ou/dao/ArticleDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/car-menu/target/classes/com/ou/dao/ArticleDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-menu/target/classes/com/ou/service/ArticleService.class" beforeDir="false" afterPath="$PROJECT_DIR$/car-menu/target/classes/com/ou/service/ArticleService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-menu/target/classes/com/ou/service/impl/ArticleServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/car-menu/target/classes/com/ou/service/impl/ArticleServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-menu/target/classes/mapper/ArticleDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/car-menu/target/classes/mapper/ArticleDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/car-user/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-user/src/main/java/com/ou/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/car-user/src/main/java/com/ou/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-user/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/car-user/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-user/target/classes/com/ou/UserMain9011.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-user/target/classes/com/ou/controller/UserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-user/target/classes/com/ou/dao/UserMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-user/target/classes/com/ou/entity/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-user/target/classes/com/ou/service/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-user/target/classes/com/ou/service/impl/UserServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-user/target/classes/com/ou/utils/MbgTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="a5a24265-5fcf-43de-a9b0-666e90c48f24" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/demo/target/" />
@@ -437,7 +414,7 @@
     <property name="SearchEverywhereHistoryKey" value="SecurityManager&#9;FILE&#9;jar://D:/Software/Maven/Repository/org/apache/shiro/shiro-core/1.2.3/shiro-core-1.2.3.jar!/org/apache/shiro/mgt/SecurityManager.class&#10;HashM&#9;PSI&#9;JAVA://java.util.HashMap" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1595480420341" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1595482660443" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/car-menu/src/main/java/com/ou" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -607,7 +584,7 @@
       <workItem from="1595313905761" duration="5540000" />
       <workItem from="1595388762029" duration="1629000" />
       <workItem from="1595432499277" duration="1434000" />
-      <workItem from="1595470878175" duration="5020000" />
+      <workItem from="1595470878175" duration="5608000" />
     </task>
     <servers />
   </component>
@@ -620,7 +597,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="128714000" />
+    <option name="totallyTimeSpent" value="129302000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -632,7 +609,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4975" visible="true" weight="0.20788912" />
       <window_info id="Structure" order="1" sideWeight="0.5025" side_tool="true" weight="0.15831557" />

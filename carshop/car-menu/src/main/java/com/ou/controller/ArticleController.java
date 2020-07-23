@@ -16,10 +16,7 @@ import javax.annotation.Resource;
 import javax.servlet.annotation.MultipartConfig;
 import java.io.File;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
 /**
  * (Article)表控制层
@@ -76,7 +73,11 @@ public class ArticleController {
                 arrayList.add(art);
         }
         if (arrayList.isEmpty()){
-            List<Article> articles = articleService.queryAllByLimit(0, 10);
+            List<Article> articles = articleService.selectAll();
+            Iterator<Article> iterator = articles.iterator();
+            while(iterator.hasNext()){
+                redisTemplate.opsForValue().set(redisPrefix+iterator.next().getId(),iterator.next());
+            }
             return ResultUtil.success(articles);
         }else {
             return ResultUtil.success(arrayList);

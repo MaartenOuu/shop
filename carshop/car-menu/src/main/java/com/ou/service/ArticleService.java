@@ -20,6 +20,14 @@ public interface ArticleService {
     Article queryById(Integer id);
 
     /**
+     * 查询全部数据
+     *
+     * @param id 主键
+     * @return 实例对象
+     */
+    List<Article> selectAll();
+
+    /**
      * 查询多条数据
      *
      * @param offset 查询起始位置

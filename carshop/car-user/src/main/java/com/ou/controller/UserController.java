@@ -34,7 +34,7 @@ public class UserController {
     public ResultCommon getToken(@RequestBody User user){
         User user1 = userService.selectOne(user);
         HashMap<String, String> map = new HashMap<>();
-        if(user1 == null || "".equals(user1)) {
+        if(user1 == null) {
             map.put("errmessage","用戶或密码错误");
             return ResultUtil.error(map);
         }else{

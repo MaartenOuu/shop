@@ -2,18 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5a24265-5fcf-43de-a9b0-666e90c48f24" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/car-consumer/target/classes/com/ou/controller/OrderArticleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/car-consumer/target/classes/com/ou/controller/OrderArticleController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-consumer/target/classes/com/ou/controller/OrderMenuController.class" beforeDir="false" afterPath="$PROJECT_DIR$/car-consumer/target/classes/com/ou/controller/OrderMenuController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-consumer/target/classes/com/ou/service/MenuService.class" beforeDir="false" afterPath="$PROJECT_DIR$/car-consumer/target/classes/com/ou/service/MenuService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/car-gateway/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-gateway/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/car-gateway/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-consumer/src/main/java/com/ou/service/ArticleService.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/car-menu/src/main/java/com/ou/controller/ArticleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/car-menu/src/main/java/com/ou/controller/ArticleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-menu/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/car-menu/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car-menu/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/car-menu/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-menu/src/main/java/com/ou/dao/ArticleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/car-menu/src/main/java/com/ou/dao/ArticleDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-menu/src/main/java/com/ou/service/ArticleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/car-menu/src/main/java/com/ou/service/ArticleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-menu/src/main/java/com/ou/service/impl/ArticleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/car-menu/src/main/java/com/ou/service/impl/ArticleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-menu/src/main/resources/mapper/ArticleDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/car-menu/src/main/resources/mapper/ArticleDao.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/car-menu/target/classes/com/ou/controller/ArticleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/car-menu/target/classes/com/ou/controller/ArticleController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../usedcarshopvue/src/router/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/../usedcarshopvue/src/router/home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../usedcarshopvue/src/views/car/article/article.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../usedcarshopvue/src/views/car/article/article.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../usedcarshopvue/vue.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/../usedcarshopvue/vue.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-menu/target/classes/com/ou/dao/ArticleDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/car-menu/target/classes/com/ou/dao/ArticleDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-menu/target/classes/com/ou/service/ArticleService.class" beforeDir="false" afterPath="$PROJECT_DIR$/car-menu/target/classes/com/ou/service/ArticleService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-menu/target/classes/com/ou/service/impl/ArticleServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/car-menu/target/classes/com/ou/service/impl/ArticleServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-menu/target/classes/mapper/ArticleDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/car-menu/target/classes/mapper/ArticleDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/car-user/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-user/src/main/java/com/ou/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/car-user/src/main/java/com/ou/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-user/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/car-user/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-user/target/classes/com/ou/UserMain9011.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-user/target/classes/com/ou/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-user/target/classes/com/ou/dao/UserMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-user/target/classes/com/ou/entity/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-user/target/classes/com/ou/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-user/target/classes/com/ou/service/impl/UserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/car-user/target/classes/com/ou/utils/MbgTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -120,12 +130,12 @@
     <session id="1841095788">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="12" />
+          <entry key="project.closed" value="13" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.10" value="4" />
+          <entry key="project.open.time.10" value="5" />
           <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.13" value="2" />
-          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.16" value="3" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.20" value="1" />
@@ -134,41 +144,41 @@
           <entry key="project.open.time.7" value="3" />
           <entry key="project.open.time.8" value="3" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="26" />
+          <entry key="project.opened" value="29" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="14" />
+          <entry key="class" value="16" />
           <entry key="factories" value="4" />
-          <entry key="java" value="143" />
+          <entry key="java" value="165" />
           <entry key="pom" value="14" />
-          <entry key="xml" value="27" />
-          <entry key="yml" value="28" />
+          <entry key="xml" value="32" />
+          <entry key="yml" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="14" />
-          <entry key="JAVA" value="143" />
-          <entry key="XML" value="41" />
-          <entry key="YAML" value="28" />
+          <entry key="CLASS" value="16" />
+          <entry key="JAVA" value="165" />
+          <entry key="XML" value="46" />
+          <entry key="YAML" value="30" />
           <entry key="spring.factories" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="8" />
-          <entry key="java" value="2669" />
-          <entry key="xml" value="76" />
+          <entry key="java" value="3236" />
+          <entry key="xml" value="109" />
           <entry key="yml" value="632" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2669" />
+          <entry key="JAVA" value="3236" />
           <entry key="PLAIN_TEXT" value="8" />
-          <entry key="XML" value="76" />
+          <entry key="XML" value="109" />
           <entry key="YAML" value="632" />
         </counts>
       </usages-collector>
@@ -182,8 +192,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/car-menu/src/main/java/com/ou/controller/ArticleController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="78" column="73" lean-forward="true" selection-start-line="78" selection-start-column="73" selection-end-line="78" selection-end-column="73" />
+            <state relative-caret-position="-259">
+              <caret line="79" column="13" selection-start-line="79" selection-start-column="13" selection-end-line="79" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -192,10 +202,86 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/car-consumer/src/main/java/com/ou/controller/OrderArticleController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/car-gateway/src/main/java/com/ou/GatewayMain9001.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/car-gateway/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/car-menu/src/main/java/com/ou/CarMenuMain9010.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/car-menu/src/main/java/com/ou/controller/CarController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/car-menu/src/main/java/com/ou/dao/ArticleDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+            <state relative-caret-position="357">
+              <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/car-menu/src/main/resources/mapper/ArticleDao.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/car-menu/src/main/java/com/ou/service/ArticleService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/car-menu/src/main/java/com/ou/service/impl/ArticleServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="40" column="43" lean-forward="true" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="43" />
+              <folding>
+                <element signature="e#784#785#0" expanded="true" />
+                <element signature="e#836#837#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -206,8 +292,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -229,14 +315,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/car-menu/src/main/java/com/ou/service/impl/MenuServiceImpl.java" />
-        <option value="$PROJECT_DIR$/car-menu/src/main/java/com/ou/dao/MenuDao.java" />
-        <option value="$PROJECT_DIR$/car-menu/src/main/java/com/ou/controller/MenuController.java" />
-        <option value="$PROJECT_DIR$/car-menu/src/main/java/com/ou/dao/ArticleDao.java" />
-        <option value="$PROJECT_DIR$/car-menu/src/main/java/com/ou/controller/TypeController.java" />
-        <option value="$PROJECT_DIR$/car-menu/src/main/java/com/ou/dao/BrandDao.java" />
-        <option value="$PROJECT_DIR$/car-menu/src/main/java/com/ou/dao/CarDao.java" />
-        <option value="$PROJECT_DIR$/car-menu/src/main/java/com/ou/dao/TypeDao.java" />
         <option value="$PROJECT_DIR$/car-user/src/test/java/com/ou/mbgTest.java" />
         <option value="$PROJECT_DIR$/car-user/src/test/java/com/ou/MbgTest.java" />
         <option value="$PROJECT_DIR$/car-user/src/main/java/com/ou/config/MbgTest.java" />
@@ -253,12 +331,10 @@
         <option value="$PROJECT_DIR$/car-menu/src/main/java/com/ou/controller/BrandController.java" />
         <option value="$PROJECT_DIR$/car-gateway/pom.xml" />
         <option value="$PROJECT_DIR$/car-gateway/src/main/java/com/ou/GatewayMain9001.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/car-common/src/main/java/com/ou/utils/JWTUtil.java" />
         <option value="$PROJECT_DIR$/car-gateway/src/main/java/com/ou/GatewayMain9527.java" />
         <option value="$PROJECT_DIR$/car-consumer/src/main/java/com/ou/service/OpenFeignService.java" />
         <option value="$PROJECT_DIR$/car-consumer/src/main/java/com/ou/service/UserService.java" />
-        <option value="$PROJECT_DIR$/car-consumer/pom.xml" />
         <option value="$PROJECT_DIR$/car-user/src/main/java/com/ou/UserMain9011.java" />
         <option value="$PROJECT_DIR$/car-menu/src/main/java/com/ou/CarMenuMain9010.java" />
         <option value="$PROJECT_DIR$/car-consumer/src/main/java/com/ou/ConsumerMain90.java" />
@@ -267,18 +343,28 @@
         <option value="$PROJECT_DIR$/car-consumer/src/main/java/com/ou/controller/OrderArticleController.java" />
         <option value="$PROJECT_DIR$/car-consumer/src/main/java/com/ou/service/MenuService.java" />
         <option value="$PROJECT_DIR$/car-consumer/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/car-user/src/main/java/com/ou/controller/UserController.java" />
         <option value="$PROJECT_DIR$/car-menu/src/main/java/com/ou/exception/ExceptionHandler.java" />
         <option value="$PROJECT_DIR$/car-menu/src/main/java/com/ou/exception/MyExceptionHandler.java" />
-        <option value="$PROJECT_DIR$/car-user/pom.xml" />
         <option value="$PROJECT_DIR$/car-user/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/car-menu/src/main/java/com/ou/config/RedisConfig.java" />
         <option value="$PROJECT_DIR$/car-menu/src/main/java/com/ou/exception/MyHandler.java" />
-        <option value="$PROJECT_DIR$/car-menu/pom.xml" />
         <option value="$PROJECT_DIR$/car-menu/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/car-menu/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/car-gateway/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/car-consumer/src/main/java/com/ou/service/ArticleService.java" />
+        <option value="$PROJECT_DIR$/car-menu/pom.xml" />
+        <option value="$PROJECT_DIR$/car-consumer/src/main/java/com/ou/entity/MyRealm.java" />
+        <option value="$PROJECT_DIR$/car-consumer/src/main/java/com/ou/config/ShiroConfig.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/car-user/pom.xml" />
+        <option value="$PROJECT_DIR$/car-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/car-user/src/main/java/com/ou/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/car-user/src/main/java/com/ou/config/MyRealm.java" />
+        <option value="$PROJECT_DIR$/car-user/src/main/java/com/ou/config/ShiroConfig.java" />
+        <option value="$PROJECT_DIR$/car-menu/src/main/java/com/ou/service/ArticleService.java" />
+        <option value="$PROJECT_DIR$/car-menu/src/main/java/com/ou/service/impl/ArticleServiceImpl.java" />
+        <option value="$PROJECT_DIR$/car-menu/src/main/resources/mapper/ArticleDao.xml" />
+        <option value="$PROJECT_DIR$/car-menu/src/main/java/com/ou/dao/ArticleDao.java" />
         <option value="$PROJECT_DIR$/car-menu/src/main/java/com/ou/controller/ArticleController.java" />
       </list>
     </option>
@@ -313,7 +399,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="869" />
     <option name="width" value="1060" />
     <option name="height" value="1047" />
@@ -327,7 +413,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -335,134 +420,11 @@
               <item name="carshop" type="b2602c69:ProjectViewProjectNode" />
               <item name="carshop" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="carshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="carshop" type="462c0819:PsiDirectoryNode" />
-              <item name="car-common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="carshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="carshop" type="462c0819:PsiDirectoryNode" />
-              <item name="car-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="carshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="carshop" type="462c0819:PsiDirectoryNode" />
-              <item name="car-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="carshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="carshop" type="462c0819:PsiDirectoryNode" />
-              <item name="car-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="carshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="carshop" type="462c0819:PsiDirectoryNode" />
-              <item name="car-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ou" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="carshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="carshop" type="462c0819:PsiDirectoryNode" />
-              <item name="car-gateway" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="carshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="carshop" type="462c0819:PsiDirectoryNode" />
-              <item name="car-gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="carshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="carshop" type="462c0819:PsiDirectoryNode" />
-              <item name="car-gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="carshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="carshop" type="462c0819:PsiDirectoryNode" />
-              <item name="car-gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="carshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="carshop" type="462c0819:PsiDirectoryNode" />
-              <item name="car-menu" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="carshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="carshop" type="462c0819:PsiDirectoryNode" />
-              <item name="car-menu" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="carshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="carshop" type="462c0819:PsiDirectoryNode" />
-              <item name="car-menu" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="carshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="carshop" type="462c0819:PsiDirectoryNode" />
-              <item name="car-menu" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="carshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="carshop" type="462c0819:PsiDirectoryNode" />
-              <item name="car-menu" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ou" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="carshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="carshop" type="462c0819:PsiDirectoryNode" />
-              <item name="car-menu" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ou" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="carshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="carshop" type="462c0819:PsiDirectoryNode" />
-              <item name="car-menu" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ou" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="carshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="carshop" type="462c0819:PsiDirectoryNode" />
-              <item name="car-menu" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -472,10 +434,10 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
-    <property name="SearchEverywhereHistoryKey" value="HashM&#9;PSI&#9;JAVA://java.util.HashMap" />
+    <property name="SearchEverywhereHistoryKey" value="SecurityManager&#9;FILE&#9;jar://D:/Software/Maven/Repository/org/apache/shiro/shiro-core/1.2.3/shiro-core-1.2.3.jar!/org/apache/shiro/mgt/SecurityManager.class&#10;HashM&#9;PSI&#9;JAVA://java.util.HashMap" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1595323160237" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1595480420341" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/car-menu/src/main/java/com/ou" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -512,13 +474,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ConsumerMain90">
+  <component name="RunManager" selected="Application.ShiroConfig">
     <configuration name="ArticleController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ou.controller.ArticleController" />
       <module name="car-menu" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.ou.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShiroConfig" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ou.config.ShiroConfig" />
+      <module name="car-user" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ou.config.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -570,12 +545,14 @@
       <item itemvalue="Spring Boot.GatewayMain9001" />
       <item itemvalue="Spring Boot.ConsumerMain90" />
       <item itemvalue="Application.ArticleController" />
+      <item itemvalue="Application.ShiroConfig" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.CarMenuMain9010" />
-        <item itemvalue="Spring Boot.GatewayMain9001" />
         <item itemvalue="Spring Boot.ConsumerMain90" />
+        <item itemvalue="Spring Boot.GatewayMain9001" />
+        <item itemvalue="Spring Boot.CarMenuMain9010" />
+        <item itemvalue="Application.ShiroConfig" />
         <item itemvalue="Application.ArticleController" />
       </list>
     </recent_temporary>
@@ -628,6 +605,9 @@
       <workItem from="1595249830013" duration="1299000" />
       <workItem from="1595294370870" duration="4550000" />
       <workItem from="1595313905761" duration="5540000" />
+      <workItem from="1595388762029" duration="1629000" />
+      <workItem from="1595432499277" duration="1434000" />
+      <workItem from="1595470878175" duration="5020000" />
     </task>
     <servers />
   </component>
@@ -640,7 +620,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="120631000" />
+    <option name="totallyTimeSpent" value="128714000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -652,10 +632,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4975" visible="true" weight="0.17270789" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4975" visible="true" weight="0.20788912" />
       <window_info id="Structure" order="1" sideWeight="0.5025" side_tool="true" weight="0.15831557" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -678,7 +657,7 @@
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32962137" />
       <window_info anchor="bottom" id="Messages" order="14" weight="0.32887402" />
-      <window_info anchor="bottom" id="Run Dashboard" order="15" visible="true" weight="0.29765886" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" visible="true" weight="0.09587514" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -702,97 +681,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/car-common/src/main/java/com/ou/entity/ResultCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/car-common/src/main/java/com/ou/entity/ResultCommon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/car-user/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="45" column="21" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Software/Maven/Repository/org/springframework/boot/spring-boot-autoconfigure/2.2.1.RELEASE/spring-boot-autoconfigure-2.2.1.RELEASE.jar!/META-INF/spring.factories">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="56" column="55" selection-start-line="56" selection-start-column="55" selection-end-line="56" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Software/Maven/Repository/org/springframework/boot/spring-boot-autoconfigure/2.2.1.RELEASE/spring-boot-autoconfigure-2.2.1.RELEASE.jar!/org/springframework/boot/autoconfigure/data/redis/RedisAutoConfiguration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/car-user/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Software/Maven/Repository/org/springframework/data/spring-data-redis/2.2.1.RELEASE/spring-data-redis-2.2.1.RELEASE.jar!/org/springframework/data/redis/core/RedisTemplate.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Software/Maven/Repository/com/fasterxml/jackson/core/jackson-databind/2.10.0/jackson-databind-2.10.0.jar!/com/fasterxml/jackson/databind/ObjectMapper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="139" column="11" selection-start-line="139" selection-start-column="11" selection-end-line="139" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Software/Maven/Repository/org/springframework/data/spring-data-redis/2.2.1.RELEASE/spring-data-redis-2.2.1.RELEASE-sources.jar!/org/springframework/data/redis/serializer/Jackson2JsonRedisSerializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-65">
-          <caret line="39" column="40" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Software/Maven/Repository/org/springframework/data/spring-data-redis/2.2.1.RELEASE/spring-data-redis-2.2.1.RELEASE-sources.jar!/org/springframework/data/redis/serializer/StringRedisSerializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="67" column="11" selection-start-line="67" selection-start-column="11" selection-end-line="67" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Software/Maven/Repository/org/springframework/data/spring-data-redis/2.2.1.RELEASE/spring-data-redis-2.2.1.RELEASE-sources.jar!/org/springframework/data/redis/serializer/RedisSerializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="29" column="14" lean-forward="true" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Software/Maven/Repository/org/springframework/boot/spring-boot-autoconfigure/2.2.1.RELEASE/spring-boot-autoconfigure-2.2.1.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/data/redis/RedisAutoConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="58" column="24" lean-forward="true" selection-start-line="58" selection-start-column="24" selection-end-line="58" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Software/JDK/src.zip!/java/lang/StringBuffer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2768">
-          <caret line="96" column="20" selection-start-line="96" selection-start-column="20" selection-end-line="96" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/Software/Maven/Repository/org/springframework/data/spring-data-redis/2.2.1.RELEASE/spring-data-redis-2.2.1.RELEASE-sources.jar!/org/springframework/data/redis/core/ValueOperations.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
@@ -842,21 +730,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/car-menu/src/main/java/com/ou/service/ArticleService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="44" column="12" selection-start-line="44" selection-start-column="12" selection-end-line="44" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/Software/JDK/src.zip!/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4403">
           <caret line="289" column="19" selection-start-line="289" selection-start-column="19" selection-end-line="289" selection-end-column="19" />
-          <folding>
-            <element signature="e#10570#10571#0" expanded="true" />
-            <element signature="e#10602#10603#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -864,20 +741,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1037">
           <caret line="84" column="17" selection-start-line="84" selection-start-column="17" selection-end-line="84" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/car-menu/src/main/java/com/ou/controller/BrandController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/car-menu/src/main/java/com/ou/controller/CarController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -919,16 +782,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/car-menu/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="47" column="21" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/car-menu/src/main/resources/mapper/ArticleDao.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/car-menu/src/main/java/com/ou/controller/MenuController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -936,35 +789,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/car-menu/src/main/java/com/ou/service/impl/ArticleServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="935">
-          <caret line="63" column="19" selection-start-line="63" selection-start-column="19" selection-end-line="63" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/car-gateway/src/main/java/com/ou/GatewayMain9001.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/car-menu/src/main/java/com/ou/CarMenuMain9010.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/Software/Maven/Repository/org/springframework/boot/spring-boot-autoconfigure/2.2.1.RELEASE/spring-boot-autoconfigure-2.2.1.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/web/servlet/MultipartProperties.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1292">
           <caret line="109" column="16" selection-start-line="109" selection-start-column="16" selection-end-line="109" selection-end-column="16" />
-          <folding>
-            <element signature="e#3314#3315#0" expanded="true" />
-            <element signature="e#3357#3358#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -985,31 +813,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/car-consumer/src/main/java/com/ou/service/ArticleService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/car-consumer/src/main/java/com/ou/controller/OrderMenuController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/car-consumer/src/main/java/com/ou/service/MenuService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-357">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/car-consumer/src/main/java/com/ou/controller/OrderArticleController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
@@ -1030,13 +834,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/car-gateway/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/car-common/src/main/java/com/ou/entity/Article.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -1051,17 +848,209 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/car-common/src/main/java/com/ou/utils/JWTUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/car-menu/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="47" column="21" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="136" column="25" selection-start-line="136" selection-start-column="25" selection-end-line="136" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/car-user/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="45" column="21" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/car-consumer/src/main/java/com/ou/entity/MyRealm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#494#495#0" expanded="true" />
+            <element signature="e#521#522#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/car-consumer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/car-consumer/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/car-consumer/src/main/java/com/ou/config/ShiroConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="9" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/car-consumer/src/main/java/com/ou/service/ArticleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/car-consumer/src/main/java/com/ou/service/MenuService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Software/JDK/src.zip!/java/lang/SecurityManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="661">
+          <caret line="226" column="6" selection-start-line="226" selection-start-column="6" selection-end-line="226" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/car-user/src/main/java/com/ou/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Software/Maven/Repository/org/apache/shiro/shiro-core/1.2.3/shiro-core-1.2.3.jar!/org/apache/shiro/mgt/SecurityManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#730#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Software/Maven/Repository/org/apache/shiro/shiro-core/1.2.3/shiro-core-1.2.3.jar!/org/apache/shiro/mgt/RealmSecurityManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="21" column="30" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/car-user/src/main/java/com/ou/config/MyRealm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="47" lean-forward="true" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/car-user/src/main/java/com/ou/config/ShiroConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/car-menu/src/main/java/com/ou/controller/BrandController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/car-menu/src/main/java/com/ou/controller/CarController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/car-menu/src/main/resources/mapper/ArticleDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/car-menu/src/main/java/com/ou/dao/ArticleDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        <state relative-caret-position="357">
+          <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/car-menu/src/main/java/com/ou/service/ArticleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/car-menu/src/main/java/com/ou/service/impl/ArticleServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="40" column="43" lean-forward="true" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="43" />
+          <folding>
+            <element signature="e#784#785#0" expanded="true" />
+            <element signature="e#836#837#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/car-gateway/src/main/java/com/ou/GatewayMain9001.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/car-gateway/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/car-menu/src/main/java/com/ou/CarMenuMain9010.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/car-consumer/src/main/java/com/ou/controller/OrderArticleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/car-menu/src/main/java/com/ou/controller/ArticleController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="78" column="73" lean-forward="true" selection-start-line="78" selection-start-column="73" selection-end-line="78" selection-end-column="73" />
+        <state relative-caret-position="-259">
+          <caret line="79" column="13" selection-start-line="79" selection-start-column="13" selection-end-line="79" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

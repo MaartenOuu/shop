@@ -34,7 +34,7 @@
           ref="upload"
           accept="image/jpeg,image/png"
           action="/pic/article/upload"
-          auto-upload=false
+          :auto-upload="false"
           :data=this.form
           :on-success="insert"
           :file-list="fileList"

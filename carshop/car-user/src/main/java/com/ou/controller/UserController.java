@@ -44,5 +44,10 @@ public class UserController {
         }
     }
 
+    @GetMapping("/user/{id}")
+    public User selectId(@PathVariable("id") int id){
+        return userService.selectId(id);
+    }
+
 }
 

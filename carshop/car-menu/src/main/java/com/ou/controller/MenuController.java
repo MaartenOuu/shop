@@ -1,8 +1,8 @@
 package com.ou.controller;
 
 import com.ou.entity.Menu;
-import com.ou.service.MenuService;
 import com.ou.entity.ResultCommon;
+import com.ou.service.MenuService;
 import com.ou.utils.ResultUtil;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.web.bind.annotation.*;

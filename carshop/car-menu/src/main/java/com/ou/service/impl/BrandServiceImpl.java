@@ -1,7 +1,7 @@
 package com.ou.service.impl;
 
-import com.ou.entity.Brand;
 import com.ou.dao.BrandDao;
+import com.ou.entity.Brand;
 import com.ou.service.BrandService;
 import org.springframework.stereotype.Service;
 
@@ -40,6 +40,16 @@ public class BrandServiceImpl implements BrandService {
     @Override
     public List<Brand> queryAllByLimit(int offset, int limit) {
         return this.brandDao.queryAllByLimit(offset, limit);
+    }
+
+    /**
+     * 查询全部数据
+     *
+     * @return 对象列表
+     */
+    @Override
+    public List<Brand> queryAll() {
+        return brandDao.queryAll();
     }
 
     /**

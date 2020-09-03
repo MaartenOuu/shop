@@ -20,6 +20,13 @@
         where id = #{id}
     </select>
 
+    <!--查询全部-->
+    <select id="queryAll" resultMap="CarMap">
+        select
+          id, car_name, car_picture, price, age, brand, type
+        from usedcarshop.car
+    </select>
+
     <!--查询指定行数据-->
     <select id="queryAllByLimit" resultMap="CarMap">
         select
@@ -29,7 +36,7 @@
     </select>
 
     <!--通过实体作为筛选条件查询-->
-    <select id="queryAll" resultMap="CarMap">
+    <select id="queryOne" resultMap="CarMap">
         select
           id, car_name, car_picture, price, age, brand, type
         from usedcarshop.car

@@ -36,4 +36,11 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
         User user1 = mapper.selectOne(Wrapper);
         return user1;
     }
+
+    @Override
+    public User selectId(int id) {
+        User user = mapper.selectById(id);
+        return user;
+    }
+
 }

@@ -1,6 +1,7 @@
 package com.ou.service;
 
 import com.ou.entity.Brand;
+
 import java.util.List;
 
 /**
@@ -27,6 +28,13 @@ public interface BrandService {
      * @return 对象列表
      */
     List<Brand> queryAllByLimit(int offset, int limit);
+
+    /**
+     * 查询全部数据
+     *
+     * @return 对象列表
+     */
+    List<Brand> queryAll();
 
     /**
      * 新增数据

@@ -2,13 +2,16 @@ package com.ou.controller;
 
 import com.ou.entity.Article;
 import com.ou.entity.Menu;
+import com.ou.entity.User;
 import com.ou.service.ArticleService;
 import com.ou.entity.ResultCommon;
+import com.ou.service.UserService;
 import com.ou.utils.ResultUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.data.redis.core.RedisTemplate;
+import org.springframework.util.Assert;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
@@ -41,6 +44,8 @@ public class ArticleController {
     private ArticleService articleService;
     @Autowired
     private RedisTemplate redisTemplate;
+    @Autowired
+    private UserService userService;
 
     /**
      * 通过主键查询单条数据
@@ -109,6 +114,8 @@ public class ArticleController {
 
     @PostMapping("insert")
     public ResultCommon insert(@RequestBody Article article){
+        User user = userService.selectId(article.getId());
+        Assert.notNull(user,"用户错误，请重新登录");
         Article insert = articleService.insert(article);
         StringBuilder stringBuilder = new StringBuilder(redisPrefix);
         String ArtId = stringBuilder.append(insert.getId()).toString();

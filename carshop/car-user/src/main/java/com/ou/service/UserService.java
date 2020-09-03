@@ -14,4 +14,6 @@ import com.ou.entity.User;
 public interface UserService extends IService<User> {
 
     User selectOne(User user);
+
+    User selectId(int id);
 }

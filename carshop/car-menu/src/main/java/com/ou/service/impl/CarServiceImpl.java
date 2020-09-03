@@ -1,7 +1,7 @@
 package com.ou.service.impl;
 
-import com.ou.entity.Car;
 import com.ou.dao.CarDao;
+import com.ou.entity.Car;
 import com.ou.service.CarService;
 import org.springframework.stereotype.Service;
 
@@ -40,6 +40,11 @@ public class CarServiceImpl implements CarService {
     @Override
     public List<Car> queryAllByLimit(int offset, int limit) {
         return this.carDao.queryAllByLimit(offset, limit);
+    }
+
+    @Override
+    public List<Car> queryAll() {
+        return carDao.queryAll();
     }
 
     /**

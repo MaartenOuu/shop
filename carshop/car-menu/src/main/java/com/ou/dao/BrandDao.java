@@ -23,6 +23,14 @@ public interface BrandDao {
     Brand queryById(Integer id);
 
     /**
+     *通过实体作为筛选条件查询
+     *
+     * @param brand 实例对象
+     * @return 对象列表
+     */
+    Brand queryOne(Brand brand);
+
+    /**
      * 查询指定行数据
      *
      * @param offset 查询起始位置
@@ -33,12 +41,10 @@ public interface BrandDao {
 
 
     /**
-     * 通过实体作为筛选条件查询
+     * 查询全部数据
      *
-     * @param brand 实例对象
-     * @return 对象列表
      */
-    List<Brand> queryAll(Brand brand);
+    List<Brand> queryAll();
 
     /**
      * 新增数据

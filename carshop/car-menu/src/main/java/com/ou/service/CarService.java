@@ -1,6 +1,7 @@
 package com.ou.service;
 
 import com.ou.entity.Car;
+
 import java.util.List;
 
 /**
@@ -27,6 +28,13 @@ public interface CarService {
      * @return 对象列表
      */
     List<Car> queryAllByLimit(int offset, int limit);
+
+    /**
+     * 查询全部数据
+     *
+     * @return 对象列表
+     */
+    List<Car> queryAll();
 
     /**
      * 新增数据

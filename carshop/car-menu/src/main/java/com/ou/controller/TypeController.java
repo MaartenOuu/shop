@@ -1,8 +1,8 @@
 package com.ou.controller;
 
+import com.ou.entity.ResultCommon;
 import com.ou.entity.Type;
 import com.ou.service.TypeService;
-import com.ou.entity.ResultCommon;
 import com.ou.utils.ResultUtil;
 import org.springframework.web.bind.annotation.*;
 

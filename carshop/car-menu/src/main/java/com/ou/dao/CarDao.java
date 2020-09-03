@@ -23,6 +23,12 @@ public interface CarDao {
     Car queryById(Integer id);
 
     /**
+     * 查询全部数据
+     *
+     */
+    List<Car> queryAll();
+
+    /**
      * 查询指定行数据
      *
      * @param offset 查询起始位置
@@ -38,7 +44,7 @@ public interface CarDao {
      * @param car 实例对象
      * @return 对象列表
      */
-    List<Car> queryAll(Car car);
+    Car queryOne(Car car);
 
     /**
      * 新增数据
